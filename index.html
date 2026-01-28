@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SAB Store</title>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      font-family: Arial;
+      background: #0f0f0f;
+      color: white;
+      text-align: center;
+      padding: 40px;
+    }
+    .card {
+      background: #1c1c1c;
+      padding: 20px;
+      border-radius: 12px;
+      max-width: 400px;
+      margin: auto;
+    }
+    button {
+      background: #ff4f8b;
+      border: none;
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>SAB Mods Store 🍓🐘</h1>
+
+  <div class="card">
+    <h2>Strawberry Elephant</h2>
+    <p>Exclusive Steel A Brainrot mod</p>
+    <p>$5.00</p>
+
+    <button onclick="buy()">Buy with Apple Pay</button>
+  </div>
+
+  <script>
+    function buy() {
+      window.location.href = "YOUR_STRIPE_LINK_HERE";
+    }
+  </script>
+
+</body>
+</html>
